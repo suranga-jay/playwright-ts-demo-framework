@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(tree \"d:\\\\Automation Projects\\\\playwright-project\" -L 3 -I \"node_modules\" 2>$null; if \\($LASTEXITCODE -ne 0\\) { Get-ChildItem -Path \"d:\\\\Automation Projects\\\\playwright-project\" -Recurse -Exclude node_modules -Depth 2 | Select-Object FullName | ForEach-Object { $_.FullName -replace [regex]::Escape\\(\"d:\\\\Automation Projects\\\\playwright-project\"\\), \".\" } | Select-Object -First 100 })",
+      "PowerShell(Get-ChildItem -Path \"d:\\\\Automation Projects\\\\playwright-project\" -Recurse -Exclude \"node_modules\" -Directory | ForEach-Object { $_.FullName -replace [regex]::Escape\\(\"d:\\\\Automation Projects\\\\playwright-project\"\\), \".\" } | Sort-Object)"
+    ]
+  }
+}

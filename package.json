@@ -1,0 +1,19 @@
+{
+  "name": "playwright-project",
+  "version": "1.0.0",
+  "directories": {
+    "test": "tests"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.60.0",
+    "@types/node": "^25.8.0",
+    "dotenv": "^17.4.2"
+  },
+  "scripts": {
+    "test": "playwright test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

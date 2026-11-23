@@ -37,7 +37,6 @@ When a test fails, the HTML report gives everything needed to diagnose it withou
 - **Video** of the failed run (`video: 'retain-on-failure'`)
 - **Trace** for step-by-step replay in Trace Viewer (`trace: 'on-first-retry'`, with `retries: 1`)
 
-![Failure diagnosis with screenshot and video](docs/failure-diagnosis.png)
 
 ## Setup
 

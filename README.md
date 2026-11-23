@@ -2,7 +2,6 @@
 
 A TypeScript test automation framework built on [Playwright Test](https://playwright.dev/), demonstrating Page Object Model design, authenticated session reuse, combined UI + API testing, built-in failure diagnostics, and a CI pipeline — exercised against [automationexercise.com](https://automationexercise.com/).
 
-![HTML report summary](docs/report-summary.png)
 
 ## Architecture
 
